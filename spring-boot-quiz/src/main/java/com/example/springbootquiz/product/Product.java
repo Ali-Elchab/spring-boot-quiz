@@ -1,8 +1,4 @@
-package product;
-
-import org.w3c.dom.Text;
-
-import java.util.Date;
+package com.example.springbootquiz.product;
 
 public class Product {
     private Long id;
@@ -11,7 +7,7 @@ public class Product {
     private String category;
     private String creation_date;
 
-    public Product(){
+    public Product() {
 
     }
 
